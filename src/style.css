@@ -1,0 +1,53 @@
+body {
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    padding: 1.5em;
+    background: lightsteelblue;
+    border-radius: 10px;
+}
+
+div {
+    line-height: 2.5em;
+}
+
+input[type="text"] {
+    font-size: 1.05em;
+    text-align: center;
+}
+
+label, input {
+    width: 100%;
+}
+
+@media(min-width: 700px) {
+    body {
+        width: 60%;
+        background: darkslategray;
+        margin-top: 20px;
+        display: grid;
+    }
+
+    label ,input {
+        display: inline-block;
+        width: 40%;
+    }
+
+    label {
+        margin-left: 2.5em;
+    }
+
+    div {
+        line-height: 3em;
+    }
+
+}

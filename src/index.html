@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <h1>Tip Calculator</h1>
+        <br>
+        <div>
+            <label>Total Bill:</label>
+            <input  id="bill-total" type="text" placeholder="Enter your total bill...">
+        </div>
+        <div>
+            <label>Tip:</label>
+            <input  id="tip-input" type="range" value="0">
+            <span id="tip-output"></span>
+        </div>
+        <div>
+            <label>Split(number of people):</label>
+            <input  id="split-input" type="range" min="1" max="10" value="1">
+            <span id="split-output"></span>
+        </div>
+        <hr>
+
+        <div>
+            <div>
+                <label>New Bill (per person):</label><span id="new-bill">0</span>
+            </div>
+            <div>
+                <label>Tip Amount (per person):</label><span id="tip-each">0</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"> </script>
+    
+</body>
+</html>
